@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# Environment
+.env
+.env.local
+*.env
+
+# PyPI credentials
+.pypirc
+
+# Data
+*.db
+*.sqlite
+data/
+chroma_data/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# RapidAI specific
+rapidai.yaml
+prompts/
+docs/
+STATUS.md
+V1_VERIFICATION.md
+PUBLISHING.md
+PYPI_QUICK_REFERENCE.md
+
+#Docsite
+docsite/
+DOCSITE_QUICKSTART.md
+DOCSITE_README.md

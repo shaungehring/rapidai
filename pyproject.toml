@@ -1,0 +1,152 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rapidai"
+version = "1.0.0"
+description = "The Python framework for lightning-fast AI prototypes"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Shaun Gehring", email = "shaun@example.com"},
+]
+keywords = ["ai", "llm", "web-framework", "chatbot", "rag"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "httpx>=0.26.0",           # Async HTTP client for LLM APIs
+    "pydantic>=2.5.0",         # Data validation
+    "pydantic-settings>=2.1.0", # Settings management
+    "uvicorn>=0.25.0",         # ASGI server
+    "python-multipart>=0.0.6", # File upload support
+    "jinja2>=3.1.2",           # Template engine
+    "pyyaml>=6.0.1",           # YAML config
+    "python-dotenv>=1.0.0",    # .env file support
+    "click>=8.1.0",            # CLI framework
+    "rich>=13.7.0",            # Terminal formatting
+    "watchfiles>=0.21.0",      # File watching for dev server
+]
+
+[project.optional-dependencies]
+# Development dependencies
+dev = [
+    "pytest>=7.4.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=4.1.0",
+    "mypy>=1.7.0",
+    "ruff>=0.1.9",
+    "pre-commit>=3.6.0",
+    "pytest-httpx>=0.26.0",
+]
+
+# LLM providers
+anthropic = ["anthropic>=0.18.0"]
+openai = ["openai>=1.10.0"]
+cohere = ["cohere>=4.47"]
+
+# RAG dependencies
+rag = [
+    "chromadb>=0.4.22",      # Vector database
+    "pypdf>=4.0.0",          # PDF parsing
+    "python-docx>=1.1.0",    # DOCX parsing
+    "beautifulsoup4>=4.12.0", # HTML parsing
+    "sentence-transformers>=2.3.0", # Embeddings
+]
+
+# Caching and memory
+redis = ["redis>=5.0.0"]
+postgres = ["asyncpg>=0.29.0", "pgvector>=0.2.4"]
+
+# All extras
+all = [
+    "rapidai[anthropic]",
+    "rapidai[openai]",
+    "rapidai[cohere]",
+    "rapidai[rag]",
+    "rapidai[redis]",
+    "rapidai[postgres]",
+]
+
+[project.urls]
+Homepage = "https://github.com/shaungehring/rapidai"
+Documentation = "https://rapidai.dev"
+Repository = "https://github.com/shaungehring/rapidai"
+Issues = "https://github.com/shaungehring/rapidai/issues"
+
+[project.scripts]
+rapidai = "rapidai.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["rapidai"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+addopts = [
+    "--strict-markers",
+    "--cov=rapidai",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+]
+
+[tool.mypy]
+python_version = "3.9"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+
+[[tool.mypy.overrides]]
+module = [
+    "chromadb.*",
+    "anthropic.*",
+    "openai.*",
+]
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "C4", # flake8-comprehensions
+    "UP", # pyupgrade
+]
+ignore = [
+    "E501", # line too long (handled by formatter)
+    "B008", # do not perform function calls in argument defaults
+]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
