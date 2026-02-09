@@ -82,7 +82,7 @@ all = [
 
 [project.urls]
 Homepage = "https://github.com/shaungehring/rapidai"
-Documentation = "https://rapidai.dev"
+Documentation = "https://github.com/shaungehring/rapidai"
 Repository = "https://github.com/shaungehring/rapidai"
 Issues = "https://github.com/shaungehring/rapidai/issues"
 
@@ -91,6 +91,15 @@ rapidai = "rapidai.cli:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["rapidai"]
+only-include = ["rapidai"]
+
+[tool.hatch.build.targets.sdist]
+only-include = [
+    "rapidai",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
