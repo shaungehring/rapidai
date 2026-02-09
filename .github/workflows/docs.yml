@@ -35,7 +35,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs-material mkdocs-minify-plugin mkdocs-redirects
+          pip install mkdocs-material mkdocs-minify-plugin mkdocs-redirects pillow cairosvg
 
       - name: Build and deploy
         working-directory: docsite
