@@ -77,7 +77,7 @@ V1_VERIFICATION.md
 PUBLISHING.md
 PYPI_QUICK_REFERENCE.md
 
-#Docsite
-docsite/
+# Docsite (keep source, ignore built site)
+docsite/site/
 DOCSITE_QUICKSTART.md
 DOCSITE_README.md

@@ -1,0 +1,139 @@
+site_name: RapidAI
+site_description: The Python framework for lightning-fast AI prototypes
+site_url: https://shaungehring.github.io/rapidai/
+repo_url: https://github.com/shaungehring/rapidai
+repo_name: shaungehring/rapidai
+
+theme:
+  name: material
+  palette:
+    # Synthwave dark theme
+    - scheme: slate
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  font:
+    text: Roboto Mono
+    code: Fira Code
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/lightning-bolt
+
+extra_css:
+  - assets/css/synthwave.css
+  - assets/css/extra.css
+
+extra_javascript:
+  - assets/js/extra.js
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - social
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - First Steps: getting-started/first-steps.md
+    - Quick Start: getting-started/quickstart.md
+  - Tutorial:
+    - Introduction: tutorial/intro.md
+    - Simple Chatbot: tutorial/simple-chatbot.md
+    - Streaming Responses: tutorial/streaming.md
+    - Conversation Memory: tutorial/memory.md
+    - Caching: tutorial/caching.md
+    - Multiple Providers: tutorial/multi-provider.md
+    - Error Handling: tutorial/error-handling.md
+    - Deployment: tutorial/deployment.md
+  - Advanced:
+    - Configuration: advanced/configuration.md
+    - Middleware: advanced/middleware.md
+    - RAG System: advanced/rag.md
+    - Caching: advanced/caching.md
+    - Background Jobs: advanced/background.md
+    - Monitoring: advanced/monitoring.md
+    - Prompt Management: advanced/prompts.md
+    - CLI Tool: advanced/cli.md
+    - UI Components: advanced/ui.md
+    - Testing: advanced/testing.md
+    - Performance: advanced/performance.md
+  - Reference:
+    - App: reference/app.md
+    - LLM: reference/llm.md
+    - Streaming: reference/streaming.md
+    - Memory: reference/memory.md
+    - Cache: reference/cache.md
+    - RAG: reference/rag.md
+    - Background Jobs: reference/background.md
+    - Monitoring: reference/monitoring.md
+    - Prompts: reference/prompts.md
+    - Configuration: reference/configuration.md
+    - CLI: reference/cli.md
+    - UI Components: reference/ui.md
+    - Testing: reference/testing.md
+    - Types: reference/types.md
+  - Deployment:
+    - Overview: deployment/overview.md
+    - Docker: deployment/docker.md
+    - Cloud Platforms: deployment/cloud.md
+    - Best Practices: deployment/best-practices.md
+  - About:
+    - Contributing: about/contributing.md
+    - Roadmap: about/roadmap.md
+    - Changelog: about/changelog.md
+    - License: about/license.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shaungehring/rapidai
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/rapidai
+  version:
+    provider: mike
