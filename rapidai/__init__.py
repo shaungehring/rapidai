@@ -1,6 +1,6 @@
 """RapidAI - The Python framework for lightning-fast AI prototypes."""
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 from .app import App
 from .llm import LLM, BaseLLM, AnthropicLLM, OpenAILLM, MockLLM
