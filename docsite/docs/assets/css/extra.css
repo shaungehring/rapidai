@@ -1,0 +1,70 @@
+/* Additional custom styles */
+
+/* Grid layout for features */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+/* Command line styling */
+.command {
+  background: rgba(10, 14, 39, 0.95);
+  border: 2px solid var(--synthwave-cyan);
+  border-radius: 8px;
+  padding: 1rem;
+  font-family: 'Fira Code', monospace;
+  color: var(--synthwave-cyan);
+  box-shadow: 0 0 15px rgba(6, 255, 165, 0.3);
+  margin: 1rem 0;
+}
+
+.command::before {
+  content: '$ ';
+  color: var(--synthwave-pink);
+  font-weight: bold;
+}
+
+/* Tabs styling */
+.tabbed-set {
+  border: 2px solid var(--synthwave-purple);
+  border-radius: 8px;
+  overflow: hidden;
+  background: rgba(10, 14, 39, 0.5);
+  box-shadow: 0 0 20px rgba(131, 56, 236, 0.2);
+}
+
+/* Logo animation */
+.md-header__button.md-logo img {
+  filter: drop-shadow(0 0 10px var(--synthwave-cyan));
+  transition: all 0.3s ease;
+}
+
+.md-header__button.md-logo:hover img {
+  filter: drop-shadow(0 0 20px var(--synthwave-pink));
+  transform: rotate(360deg);
+}
+
+/* Announcement bar */
+.md-banner {
+  background: linear-gradient(90deg, var(--synthwave-pink) 0%, var(--synthwave-purple) 50%, var(--synthwave-cyan) 100%);
+  color: white;
+  font-weight: 600;
+}
+
+/* Code copy button */
+.md-clipboard {
+  color: var(--synthwave-cyan);
+}
+
+.md-clipboard:hover {
+  color: var(--synthwave-pink);
+  text-shadow: 0 0 10px currentColor;
+}
+
+/* Version selector */
+.md-version__current {
+  color: var(--synthwave-cyan);
+  font-weight: 600;
+}

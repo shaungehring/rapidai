@@ -71,7 +71,7 @@ Thumbs.db
 # RapidAI specific
 rapidai.yaml
 prompts/
-docs/
+/docs/
 STATUS.md
 V1_VERIFICATION.md
 PUBLISHING.md
