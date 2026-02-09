@@ -24,7 +24,7 @@ class PDFLoader(BaseDocumentLoader):
             from pypdf import PdfReader
         except ImportError:
             raise DocumentLoaderError(
-                "pypdf not installed. Install with: pip install rapidai[rag]"
+                "pypdf not installed. Install with: pip install rapidai-framework[rag]"
             )
 
         path = Path(source)
@@ -66,7 +66,7 @@ class DOCXLoader(BaseDocumentLoader):
             from docx import Document as DocxDocument
         except ImportError:
             raise DocumentLoaderError(
-                "python-docx not installed. Install with: pip install rapidai[rag]"
+                "python-docx not installed. Install with: pip install rapidai-framework[rag]"
             )
 
         path = Path(source)
@@ -153,7 +153,7 @@ class HTMLLoader(BaseDocumentLoader):
             from bs4 import BeautifulSoup
         except ImportError:
             raise DocumentLoaderError(
-                "beautifulsoup4 not installed. Install with: pip install rapidai[rag]"
+                "beautifulsoup4 not installed. Install with: pip install rapidai-framework[rag]"
             )
 
         path = Path(source)

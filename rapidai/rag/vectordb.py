@@ -21,7 +21,7 @@ class ChromaDB(BaseVectorDB):
             import chromadb
         except ImportError:
             raise VectorDBError(
-                "chromadb not installed. Install with: pip install rapidai[rag]"
+                "chromadb not installed. Install with: pip install rapidai-framework[rag]"
             )
 
         self.client = chromadb.PersistentClient(path=persist_directory)

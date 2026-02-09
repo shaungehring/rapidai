@@ -38,7 +38,7 @@ class SentenceTransformerEmbedding(BaseEmbedding):
         except ImportError:
             raise EmbeddingError(
                 "sentence-transformers not installed. "
-                "Install with: pip install rapidai[rag]"
+                "Install with: pip install rapidai-framework[rag]"
             )
 
     async def embed_text(self, text: str) -> List[float]:
@@ -108,7 +108,7 @@ class OpenAIEmbedding(BaseEmbedding):
             self.client = AsyncOpenAI(api_key=api_key)
         except ImportError:
             raise EmbeddingError(
-                "openai not installed. Install with: pip install rapidai[openai]"
+                "openai not installed. Install with: pip install rapidai-framework[openai]"
             )
 
     async def embed_text(self, text: str) -> List[float]:

@@ -20,7 +20,7 @@ pip install -e ".[dev,anthropic,openai]"
 
 Or install from PyPI (when published):
 ```bash
-pip install rapidai[anthropic,openai]
+pip install rapidai-framework[anthropic,openai]
 ```
 
 ### 3. Set up environment variables

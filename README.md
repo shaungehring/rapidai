@@ -1,6 +1,6 @@
 # RapidAI 🚀
 
-[![PyPI version](https://badge.fury.io/py/rapidai.svg)](https://pypi.org/project/rapidai/)
+[![PyPI version](https://badge.fury.io/py/rapidai-framework.svg)](https://pypi.org/project/rapidai-framework/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -100,7 +100,7 @@ async def metrics():
 ## 📦 Installation
 
 ```bash
-pip install rapidai
+pip install rapidai-framework
 ```
 
 ### Optional Dependencies
@@ -109,22 +109,22 @@ Install with specific features:
 
 ```bash
 # Anthropic Claude support
-pip install "rapidai[anthropic]"
+pip install "rapidai-framework[anthropic]"
 
 # OpenAI support
-pip install "rapidai[openai]"
+pip install "rapidai-framework[openai]"
 
 # RAG (document loading, embeddings, vector DB)
-pip install "rapidai[rag]"
+pip install "rapidai-framework[rag]"
 
 # Redis (for caching and memory)
-pip install "rapidai[redis]"
+pip install "rapidai-framework[redis]"
 
 # Everything
-pip install "rapidai[all]"
+pip install "rapidai-framework[all]"
 
 # Development tools
-pip install "rapidai[dev]"
+pip install "rapidai-framework[dev]"
 ```
 
 ## 📋 What's Included
@@ -258,7 +258,7 @@ ruff format rapidai
 - 📖 **Documentation** - [rapidai.dev](https://rapidai.dev)
 - 🐛 **Bug Reports** - [GitHub Issues](https://github.com/shaungehring/rapidai/issues)
 - 💡 **Feature Requests** - [GitHub Discussions](https://github.com/shaungehring/rapidai/discussions)
-- 📦 **PyPI Package** - [pypi.org/project/rapidai](https://pypi.org/project/rapidai/)
+- 📦 **PyPI Package** - [pypi.org/project/rapidai-framework](https://pypi.org/project/rapidai-framework/)
 - 📋 **Changelog** - [CHANGELOG.md](CHANGELOG.md)
 
 ## 🚀 Publishing

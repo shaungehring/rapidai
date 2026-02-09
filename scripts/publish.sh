@@ -140,10 +140,10 @@ if [ "$MODE" = "test" ]; then
     info "Test installation:"
     echo "  python -m venv test_env"
     echo "  source test_env/bin/activate"
-    echo "  pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ rapidai"
+    echo "  pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ rapidai-framework"
     echo "  python -c 'import rapidai; print(rapidai.__version__)'"
     echo ""
-    info "View at: https://test.pypi.org/project/rapidai/${VERSION}/"
+    info "View at: https://test.pypi.org/project/rapidai-framework/${VERSION}/"
 
 else
     info "Uploading to PyPI..."
@@ -171,10 +171,10 @@ else
 
     success "🎉 Published to PyPI!"
     echo ""
-    info "Package is now live at: https://pypi.org/project/rapidai/${VERSION}/"
+    info "Package is now live at: https://pypi.org/project/rapidai-framework/${VERSION}/"
     echo ""
     info "Install with:"
-    echo "  pip install rapidai"
+    echo "  pip install rapidai-framework"
     echo ""
     info "Next steps:"
     echo "  1. Create GitHub release: https://github.com/shaungehring/rapidai/releases/new"
