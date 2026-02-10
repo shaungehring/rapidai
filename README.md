@@ -152,7 +152,7 @@ pip install "rapidai-framework[dev]"
 - ✅ **CLI tool** - `rapidai new`, `rapidai dev`, `rapidai deploy`, `rapidai test`
 - ✅ **Project templates** - Chatbot, RAG, Agent, API templates
 - ✅ **Type hints** - Full type coverage for IDE support
-- ✅ **Documentation** - Complete guides and API references at [rapidai.dev](https://rapidai.dev)
+- ✅ **Documentation** - Complete guides and API references at [https://shaungehring.github.io/rapidai/](https://shaungehring.github.io/rapidai/)
 
 ## Status
 
@@ -184,15 +184,15 @@ Perfect for building:
 
 Complete documentation available at **[https://shaungehring.github.io/rapidai/](https://shaungehring.github.io/rapidai/)**
 
-- [Getting Started Guide](hhttps://shaungehring.github.io/rapidai/tutorial/intro/)
-- [LLM Integration](hhttps://shaungehring.github.io/rapidai/advanced/llm/)
-- [Background Jobs](hhttps://shaungehring.github.io/rapidai/advanced/background/)
-- [Monitoring & Metrics](hhttps://shaungehring.github.io/rapidai/advanced/monitoring/)
-- [RAG System](hhttps://shaungehring.github.io/rapidai/advanced/rag/)
-- [UI Components](hhttps://shaungehring.github.io/rapidai/advanced/ui/)
-- [Testing Guide](hhttps://shaungehring.github.io/rapidai/advanced/testing/)
-- [Deployment](hhttps://shaungehring.github.io/rapidai/deployment/overview/)
-- [API Reference](hhttps://shaungehring.github.io/rapidai/reference/app/)
+- [Getting Started Guide](https://shaungehring.github.io/rapidai/tutorial/intro/)
+- [LLM Integration](https://shaungehring.github.io/rapidai/advanced/llm/)
+- [Background Jobs](https://shaungehring.github.io/rapidai/advanced/background/)
+- [Monitoring & Metrics](https://shaungehring.github.io/rapidai/advanced/monitoring/)
+- [RAG System](https://shaungehring.github.io/rapidai/advanced/rag/)
+- [UI Components](https://shaungehring.github.io/rapidai/advanced/ui/)
+- [Testing Guide](https://shaungehring.github.io/rapidai/advanced/testing/)
+- [Deployment](https://shaungehring.github.io/rapidai/deployment/overview/)
+- [API Reference](https://shaungehring.github.io/rapidai/reference/app/)
 
 ## 🛠️ CLI Tool
 
@@ -255,7 +255,7 @@ ruff format rapidai
 
 ## 🤝 Community & Support
 
-- 📖 **Documentation** - [rapidai.dev](https://rapidai.dev)
+- 📖 **Documentation** - [https://shaungehring.github.io/rapidai/](https://shaungehring.github.io/rapidai/)
 - 🐛 **Bug Reports** - [GitHub Issues](https://github.com/shaungehring/rapidai/issues)
 - 💡 **Feature Requests** - [GitHub Discussions](https://github.com/shaungehring/rapidai/discussions)
 - 📦 **PyPI Package** - [pypi.org/project/rapidai-framework](https://pypi.org/project/rapidai-framework/)

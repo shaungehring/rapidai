@@ -197,7 +197,7 @@ app.run(port=8001)
 
 - 🐛 [Report bugs](https://github.com/shaungehring/rapidai/issues)
 - 💡 [Request features](https://github.com/shaungehring/rapidai/discussions)
-- 📖 [Read the docs](https://rapidai.dev) (coming soon)
+- 📖 [Read the docs](https://shaungehring.github.io/rapidai/)
 
 ---
 

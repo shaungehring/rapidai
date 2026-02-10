@@ -150,7 +150,7 @@ if __name__ == "__main__":
 ```
 
 **Documentation:**
-https://rapidai.dev
+https://shaungehring.github.io/rapidai/
 
 **Feedback:**
 https://github.com/shaungehring/rapidai/issues

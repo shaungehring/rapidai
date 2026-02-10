@@ -1,6 +1,6 @@
 # RapidAI Documentation Site
 
-Synthwave/Cyberpunk themed documentation site for RapidAI built with MkDocs Material.
+Synthwave/Cyberpunk themed documentation site for RapidAI built with MkDocs Material. Made by Shaun
 
 ## Features
 

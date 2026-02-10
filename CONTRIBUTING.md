@@ -439,7 +439,7 @@ We aim to review PRs within 2-3 days. If urgent, mention in PR description.
 
 - Open a discussion on GitHub
 - Check existing issues and discussions
-- Read documentation at rapidai.dev
+- Read documentation at https://shaungehring.github.io/rapidai/
 
 ## License
 
