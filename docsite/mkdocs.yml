@@ -3,7 +3,7 @@ site_description: The Python framework for lightning-fast AI prototypes
 site_url: https://shaungehring.github.io/rapidai/
 repo_url: https://github.com/shaungehring/rapidai
 repo_name: shaungehring/rapidai
-use_directory_urls: true
+use_directory_urls: false
 
 theme:
   name: material
