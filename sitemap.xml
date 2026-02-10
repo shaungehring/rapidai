@@ -1,183 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://shaungehring.github.io/rapidai/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/index.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/about/changelog/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/about/changelog.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/about/contributing/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/about/contributing.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/about/license/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/about/license.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/about/roadmap/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/about/roadmap.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/advanced/background/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/advanced/background.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/advanced/caching/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/advanced/caching.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/advanced/cli/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/advanced/cli.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/advanced/configuration/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/advanced/configuration.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/advanced/middleware/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/advanced/middleware.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/advanced/monitoring/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/advanced/monitoring.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/advanced/performance/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/advanced/performance.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/advanced/prompts/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/advanced/prompts.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/advanced/rag/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/advanced/rag.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/advanced/testing/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/advanced/testing.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/advanced/ui/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/advanced/ui.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/deployment/best-practices/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/deployment/best-practices.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/deployment/cloud/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/deployment/cloud.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/deployment/docker/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/deployment/docker.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/deployment/overview/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/deployment/overview.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/getting-started/first-steps/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/getting-started/first-steps.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/getting-started/installation/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/getting-started/installation.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/getting-started/quickstart/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/getting-started/quickstart.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/app/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/app.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/background/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/background.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/cache/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/cache.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/cli/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/cli.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/configuration/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/configuration.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/llm/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/llm.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/memory/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/memory.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/monitoring/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/monitoring.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/prompts/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/prompts.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/rag/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/rag.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/streaming/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/streaming.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/testing/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/testing.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/types/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/types.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/reference/ui/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/reference/ui.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/tutorial/caching/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/tutorial/caching.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/tutorial/deployment/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/tutorial/deployment.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/tutorial/error-handling/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/tutorial/error-handling.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/tutorial/intro/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/tutorial/intro.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/tutorial/memory/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/tutorial/memory.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/tutorial/multi-provider/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/tutorial/multi-provider.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/tutorial/simple-chatbot/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/tutorial/simple-chatbot.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
     <url>
-         <loc>https://shaungehring.github.io/rapidai/tutorial/streaming/</loc>
-         <lastmod>2026-02-09</lastmod>
+         <loc>https://shaungehring.github.io/rapidai/tutorial/streaming.html</loc>
+         <lastmod>2026-02-10</lastmod>
     </url>
 </urlset>

@@ -19,5 +19,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Console welcome message
     console.log('%cRapidAI Documentation', 'font-size: 20px; font-weight: bold; color: #00ffff;');
-    console.log('%cLearn more at https://rapidai.dev', 'font-size: 12px; color: #999;');
+    console.log('%cLearn more at https://shaungehring.github.io/rapidai/', 'font-size: 12px; color: #999;');
 });

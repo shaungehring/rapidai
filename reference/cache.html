@@ -10,29 +10,31 @@
       
       
       
-        <link rel="canonical" href="https://shaungehring.github.io/rapidai/index.html">
+        <link rel="canonical" href="https://shaungehring.github.io/rapidai/reference/cache.html">
       
       
+        <link rel="prev" href="memory.html">
       
-        <link rel="next" href="getting-started/installation.html">
+      
+        <link rel="next" href="rag.html">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>RapidAI</title>
+        <title>Cache - RapidAI</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -51,11 +53,11 @@
       
     
     
-      <link rel="stylesheet" href="assets/css/synthwave.css">
+      <link rel="stylesheet" href="../assets/css/synthwave.css">
     
-      <link rel="stylesheet" href="assets/css/extra.css">
+      <link rel="stylesheet" href="../assets/css/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -80,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rapidai" class="md-skip">
+        <a href="#cache" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +96,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="index.html" title="RapidAI" class="md-header__button md-logo" aria-label="RapidAI" data-md-component="logo">
+    <a href="../index.html" title="RapidAI" class="md-header__button md-logo" aria-label="RapidAI" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15H6l7-14v8h5l-7 14z"/></svg>
@@ -114,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Cache
             
           </span>
         </div>
@@ -225,11 +227,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="index.html" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../index.html" class="md-tabs__link">
         
   
   
@@ -250,7 +250,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="getting-started/installation.html" class="md-tabs__link">
+        <a href="../getting-started/installation.html" class="md-tabs__link">
           
   
   
@@ -270,7 +270,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="tutorial/intro.html" class="md-tabs__link">
+        <a href="../tutorial/intro.html" class="md-tabs__link">
           
   
   
@@ -290,7 +290,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="advanced/configuration.html" class="md-tabs__link">
+        <a href="../advanced/configuration.html" class="md-tabs__link">
           
   
   
@@ -306,11 +306,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="reference/app.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="app.html" class="md-tabs__link">
           
   
   
@@ -330,7 +332,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="deployment/overview.html" class="md-tabs__link">
+        <a href="../deployment/overview.html" class="md-tabs__link">
           
   
   
@@ -350,7 +352,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="about/contributing.html" class="md-tabs__link">
+        <a href="../about/contributing.html" class="md-tabs__link">
           
   
   
@@ -384,7 +386,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="RapidAI" class="md-nav__button md-logo" aria-label="RapidAI" data-md-component="logo">
+    <a href="../index.html" title="RapidAI" class="md-nav__button md-logo" aria-label="RapidAI" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15H6l7-14v8h5l-7 14z"/></svg>
@@ -411,37 +413,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
         
   
   
@@ -457,103 +432,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#features" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ✨ Features
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quick-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🎯 Quick Example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-rapidai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🌟 Why RapidAI?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perfect-for" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📊 Perfect For
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#learn-more" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🎓 Learn More
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#community" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🤝 Community
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#license" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📄 License
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -619,7 +497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/installation.html" class="md-nav__link">
+      <a href="../getting-started/installation.html" class="md-nav__link">
         
   
   
@@ -647,7 +525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/first-steps.html" class="md-nav__link">
+      <a href="../getting-started/first-steps.html" class="md-nav__link">
         
   
   
@@ -675,7 +553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="getting-started/quickstart.html" class="md-nav__link">
+      <a href="../getting-started/quickstart.html" class="md-nav__link">
         
   
   
@@ -764,7 +642,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tutorial/intro.html" class="md-nav__link">
+      <a href="../tutorial/intro.html" class="md-nav__link">
         
   
   
@@ -792,7 +670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tutorial/simple-chatbot.html" class="md-nav__link">
+      <a href="../tutorial/simple-chatbot.html" class="md-nav__link">
         
   
   
@@ -820,7 +698,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tutorial/streaming.html" class="md-nav__link">
+      <a href="../tutorial/streaming.html" class="md-nav__link">
         
   
   
@@ -848,7 +726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tutorial/memory.html" class="md-nav__link">
+      <a href="../tutorial/memory.html" class="md-nav__link">
         
   
   
@@ -876,7 +754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tutorial/caching.html" class="md-nav__link">
+      <a href="../tutorial/caching.html" class="md-nav__link">
         
   
   
@@ -904,7 +782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tutorial/multi-provider.html" class="md-nav__link">
+      <a href="../tutorial/multi-provider.html" class="md-nav__link">
         
   
   
@@ -932,7 +810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tutorial/error-handling.html" class="md-nav__link">
+      <a href="../tutorial/error-handling.html" class="md-nav__link">
         
   
   
@@ -960,7 +838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tutorial/deployment.html" class="md-nav__link">
+      <a href="../tutorial/deployment.html" class="md-nav__link">
         
   
   
@@ -1049,7 +927,7 @@
   
   
     <li class="md-nav__item">
-      <a href="advanced/configuration.html" class="md-nav__link">
+      <a href="../advanced/configuration.html" class="md-nav__link">
         
   
   
@@ -1077,7 +955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="advanced/middleware.html" class="md-nav__link">
+      <a href="../advanced/middleware.html" class="md-nav__link">
         
   
   
@@ -1105,7 +983,7 @@
   
   
     <li class="md-nav__item">
-      <a href="advanced/rag.html" class="md-nav__link">
+      <a href="../advanced/rag.html" class="md-nav__link">
         
   
   
@@ -1133,7 +1011,7 @@
   
   
     <li class="md-nav__item">
-      <a href="advanced/caching.html" class="md-nav__link">
+      <a href="../advanced/caching.html" class="md-nav__link">
         
   
   
@@ -1161,7 +1039,7 @@
   
   
     <li class="md-nav__item">
-      <a href="advanced/background.html" class="md-nav__link">
+      <a href="../advanced/background.html" class="md-nav__link">
         
   
   
@@ -1189,7 +1067,7 @@
   
   
     <li class="md-nav__item">
-      <a href="advanced/monitoring.html" class="md-nav__link">
+      <a href="../advanced/monitoring.html" class="md-nav__link">
         
   
   
@@ -1217,7 +1095,7 @@
   
   
     <li class="md-nav__item">
-      <a href="advanced/prompts.html" class="md-nav__link">
+      <a href="../advanced/prompts.html" class="md-nav__link">
         
   
   
@@ -1245,7 +1123,7 @@
   
   
     <li class="md-nav__item">
-      <a href="advanced/cli.html" class="md-nav__link">
+      <a href="../advanced/cli.html" class="md-nav__link">
         
   
   
@@ -1273,7 +1151,7 @@
   
   
     <li class="md-nav__item">
-      <a href="advanced/ui.html" class="md-nav__link">
+      <a href="../advanced/ui.html" class="md-nav__link">
         
   
   
@@ -1301,7 +1179,7 @@
   
   
     <li class="md-nav__item">
-      <a href="advanced/testing.html" class="md-nav__link">
+      <a href="../advanced/testing.html" class="md-nav__link">
         
   
   
@@ -1329,7 +1207,7 @@
   
   
     <li class="md-nav__item">
-      <a href="advanced/performance.html" class="md-nav__link">
+      <a href="../advanced/performance.html" class="md-nav__link">
         
   
   
@@ -1361,28 +1239,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
             
   
   
@@ -1400,7 +1281,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1418,7 +1299,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/app.html" class="md-nav__link">
+      <a href="app.html" class="md-nav__link">
         
   
   
@@ -1446,7 +1327,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/llm.html" class="md-nav__link">
+      <a href="llm.html" class="md-nav__link">
         
   
   
@@ -1474,7 +1355,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/streaming.html" class="md-nav__link">
+      <a href="streaming.html" class="md-nav__link">
         
   
   
@@ -1502,7 +1383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/memory.html" class="md-nav__link">
+      <a href="memory.html" class="md-nav__link">
         
   
   
@@ -1527,10 +1408,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="reference/cache.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="cache.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1546,6 +1436,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1558,7 +1449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/rag.html" class="md-nav__link">
+      <a href="rag.html" class="md-nav__link">
         
   
   
@@ -1586,7 +1477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/background.html" class="md-nav__link">
+      <a href="background.html" class="md-nav__link">
         
   
   
@@ -1614,7 +1505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/monitoring.html" class="md-nav__link">
+      <a href="monitoring.html" class="md-nav__link">
         
   
   
@@ -1642,7 +1533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/prompts.html" class="md-nav__link">
+      <a href="prompts.html" class="md-nav__link">
         
   
   
@@ -1670,7 +1561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/configuration.html" class="md-nav__link">
+      <a href="configuration.html" class="md-nav__link">
         
   
   
@@ -1698,7 +1589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/cli.html" class="md-nav__link">
+      <a href="cli.html" class="md-nav__link">
         
   
   
@@ -1726,7 +1617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/ui.html" class="md-nav__link">
+      <a href="ui.html" class="md-nav__link">
         
   
   
@@ -1754,7 +1645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/testing.html" class="md-nav__link">
+      <a href="testing.html" class="md-nav__link">
         
   
   
@@ -1782,7 +1673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="reference/types.html" class="md-nav__link">
+      <a href="types.html" class="md-nav__link">
         
   
   
@@ -1871,7 +1762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deployment/overview.html" class="md-nav__link">
+      <a href="../deployment/overview.html" class="md-nav__link">
         
   
   
@@ -1899,7 +1790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deployment/docker.html" class="md-nav__link">
+      <a href="../deployment/docker.html" class="md-nav__link">
         
   
   
@@ -1927,7 +1818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deployment/cloud.html" class="md-nav__link">
+      <a href="../deployment/cloud.html" class="md-nav__link">
         
   
   
@@ -1955,7 +1846,7 @@
   
   
     <li class="md-nav__item">
-      <a href="deployment/best-practices.html" class="md-nav__link">
+      <a href="../deployment/best-practices.html" class="md-nav__link">
         
   
   
@@ -2044,7 +1935,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/contributing.html" class="md-nav__link">
+      <a href="../about/contributing.html" class="md-nav__link">
         
   
   
@@ -2072,7 +1963,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/roadmap.html" class="md-nav__link">
+      <a href="../about/roadmap.html" class="md-nav__link">
         
   
   
@@ -2100,7 +1991,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/changelog.html" class="md-nav__link">
+      <a href="../about/changelog.html" class="md-nav__link">
         
   
   
@@ -2128,7 +2019,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/license.html" class="md-nav__link">
+      <a href="../about/license.html" class="md-nav__link">
         
   
   
@@ -2176,91 +2067,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#features" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ✨ Features
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quick-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🎯 Quick Example
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#why-rapidai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🌟 Why RapidAI?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perfect-for" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📊 Perfect For
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#learn-more" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🎓 Learn More
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#community" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🤝 Community
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#license" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📄 License
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -2279,139 +2085,10 @@
   
 
 
-<h1 id="rapidai">RapidAI ⚡<a class="headerlink" href="#rapidai" title="Permanent link">&para;</a></h1>
-<div class="hero">
-  <h1>The Python Framework for Lightning-Fast AI Prototypes</h1>
-  <p style="font-size: 1.3rem; color: var(--synthwave-cyan); margin: 2rem 0;">
-    Build production-ready AI applications in under an hour. Zero-config LLM integration, streaming by default, batteries included.
-  </p>
-  <div style="margin-top: 2rem;">
-    <a href="getting-started/installation/" class="md-button md-button--primary" style="margin: 0.5rem;">Get Started</a>
-    <a href="tutorial/intro/" class="md-button" style="margin: 0.5rem;">View Tutorial</a>
-    <a href="https://github.com/shaungehring/rapidai" class="md-button" style="margin: 0.5rem;">GitHub</a>
-  </div>
-</div>
-
-<h2 id="features">✨ Features<a class="headerlink" href="#features" title="Permanent link">&para;</a></h2>
-<div class="feature-grid">
-  <div class="feature-card">
-    <h3>🚀 Zero-Config LLM Integration</h3>
-    <p>Built-in clients for OpenAI, Anthropic, Cohere, and local models with a unified interface. Swap providers with one line of code.</p>
-  </div>
-
-  <div class="feature-card">
-    <h3>📡 Streaming by Default</h3>
-    <p>Server-Sent Events (SSE) and WebSocket streaming built into routes, not bolted on. Real-time AI responses out of the box.</p>
-  </div>
-
-  <div class="feature-card">
-    <h3>🧠 Smart Memory</h3>
-    <p>Conversation tracking per user with multiple backend options. Redis, PostgreSQL, or in-memory - you choose.</p>
-  </div>
-
-  <div class="feature-card">
-    <h3>💾 Intelligent Caching</h3>
-    <p>LLM response caching that understands semantic similarity. Save money and improve response times automatically.</p>
-  </div>
-
-  <div class="feature-card">
-    <h3>📝 Prompt Management</h3>
-    <p>Version, test, and swap prompts without code changes. Jinja2 templating with hot reloading in development.</p>
-  </div>
-
-  <div class="feature-card">
-    <h3>🔍 RAG in Minutes</h3>
-    <p>Document parsing, vector DB, and retrieval with 2-line setup. Built-in support for PDFs, DOCX, and more.</p>
-  </div>
-</div>
-
-<h2 id="quick-example">🎯 Quick Example<a class="headerlink" href="#quick-example" title="Permanent link">&para;</a></h2>
-<div class="language-python highlight"><span class="filename">app.py</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">rapidai</span><span class="w"> </span><span class="kn">import</span> <span class="n">App</span><span class="p">,</span> <span class="n">LLM</span><span class="p">,</span> <span class="n">stream</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="n">app</span> <span class="o">=</span> <span class="n">App</span><span class="p">()</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">llm</span> <span class="o">=</span> <span class="n">LLM</span><span class="p">(</span><span class="s2">&quot;claude-3-haiku-20240307&quot;</span><span class="p">)</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/chat&quot;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;POST&quot;</span><span class="p">])</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="nd">@stream</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="k">async</span> <span class="k">def</span><span class="w"> </span><span class="nf">chat</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="sd">&quot;&quot;&quot;Stream a chat response.&quot;&quot;&quot;</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    <span class="n">response</span> <span class="o">=</span> <span class="k">await</span> <span class="n">llm</span><span class="o">.</span><span class="n">chat</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">stream</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    <span class="k">async</span> <span class="k">for</span> <span class="n">chunk</span> <span class="ow">in</span> <span class="n">response</span><span class="p">:</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>        <span class="k">yield</span> <span class="n">chunk</span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
-</span></code></pre></div>
-<div class="command">python app.py</div>
-
-<div class="language-bash highlight"><span class="filename">Test it</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>http://localhost:8000/chat<span class="w"> </span><span class="se">\</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;message&quot;: &quot;Hello, AI!&quot;}&#39;</span>
-</span></code></pre></div>
-<h2 id="why-rapidai">🌟 Why RapidAI?<a class="headerlink" href="#why-rapidai" title="Permanent link">&para;</a></h2>
-<div class="admonition success">
-<p class="admonition-title">Convention over Configuration</p>
-<p>Sensible defaults everywhere. Get started in minutes, not hours.</p>
-</div>
-<div class="admonition success">
-<p class="admonition-title">Provider Agnostic</p>
-<p>Never get locked into a single LLM provider. Switch between OpenAI, Anthropic, or local models with ease.</p>
-</div>
-<div class="admonition success">
-<p class="admonition-title">Async-First</p>
-<p>Built from the ground up with async/await for maximum performance.</p>
-</div>
-<div class="admonition success">
-<p class="admonition-title">Type-Safe</p>
-<p>Full type hints for excellent IDE support and fewer runtime errors.</p>
-</div>
-<div class="admonition success">
-<p class="admonition-title">Production Ready</p>
-<p>Error handling, rate limiting, monitoring, and deployment templates included.</p>
-</div>
-<h2 id="perfect-for">📊 Perfect For<a class="headerlink" href="#perfect-for" title="Permanent link">&para;</a></h2>
-<ul>
-<li>🚀 <strong>Rapid POCs</strong> - Test AI features in minutes</li>
-<li>🏢 <strong>Internal Tools</strong> - Build dashboards and automation</li>
-<li>💬 <strong>Chat Interfaces</strong> - Customer support and assistants</li>
-<li>📚 <strong>RAG Applications</strong> - Document Q&amp;A systems</li>
-<li>🔄 <strong>Document Processing</strong> - Automated pipelines</li>
-<li>🌐 <strong>AI-Powered APIs</strong> - Production-grade endpoints</li>
-</ul>
-<h2 id="learn-more">🎓 Learn More<a class="headerlink" href="#learn-more" title="Permanent link">&para;</a></h2>
-<div class="feature-grid">
-  <div class="feature-card">
-    <h3>📘 Tutorial</h3>
-    <p>Step-by-step guide from simple chatbot to production deployment.</p>
-    <a href="tutorial/intro/">Start Learning →</a>
-  </div>
-
-  <div class="feature-card">
-    <h3>📖 API Reference</h3>
-    <p>Complete documentation of all classes, methods, and decorators.</p>
-    <a href="reference/app/">Browse Reference →</a>
-  </div>
-
-  <div class="feature-card">
-    <h3>🚀 Deployment</h3>
-    <p>Deploy to Docker, AWS, GCP, Azure, and more with confidence.</p>
-    <a href="deployment/overview/">Deploy Now →</a>
-  </div>
-</div>
-
-<h2 id="community">🤝 Community<a class="headerlink" href="#community" title="Permanent link">&para;</a></h2>
-<ul>
-<li>🐛 <a href="https://github.com/shaungehring/rapidai/issues">Report Bugs</a></li>
-<li>💡 <a href="https://github.com/shaungehring/rapidai/discussions">Request Features</a></li>
-<li>📣 <a href="#">Join Discord</a> (Coming Soon)</li>
-<li>🐦 <a href="https://twitter.com/rapidai">Follow on Twitter</a></li>
-</ul>
-<h2 id="license">📄 License<a class="headerlink" href="#license" title="Permanent link">&para;</a></h2>
-<p>RapidAI is licensed under the MIT License. See <a href="about/license.html">LICENSE</a> for details.</p>
-<hr />
-<div style="text-align: center; padding: 2rem; color: var(--synthwave-cyan);">
-  <p style="font-size: 1.5rem; font-weight: 600;">Ready to build something amazing?</p>
-  <a href="getting-started/installation/" class="md-button md-button--primary" style="font-size: 1.2rem; padding: 1rem 2rem;">Get Started Now →</a>
+<h1 id="cache">cache<a class="headerlink" href="#cache" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Coming Soon</p>
+<p>This page is under construction. Check back soon!</p>
 </div>
 
 
@@ -2497,12 +2174,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotate", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotate", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="assets/js/extra.js"></script>
+        <script src="../assets/js/extra.js"></script>
       
     
   </body>
