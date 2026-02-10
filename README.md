@@ -182,17 +182,17 @@ Perfect for building:
 
 ## 📚 Documentation
 
-Complete documentation available at **[rapidai.dev](https://rapidai.dev)**
+Complete documentation available at **[https://shaungehring.github.io/rapidai/](https://shaungehring.github.io/rapidai/)**
 
-- [Getting Started Guide](https://rapidai.dev/tutorial/intro/)
-- [LLM Integration](https://rapidai.dev/advanced/llm/)
-- [Background Jobs](https://rapidai.dev/advanced/background/)
-- [Monitoring & Metrics](https://rapidai.dev/advanced/monitoring/)
-- [RAG System](https://rapidai.dev/advanced/rag/)
-- [UI Components](https://rapidai.dev/advanced/ui/)
-- [Testing Guide](https://rapidai.dev/advanced/testing/)
-- [Deployment](https://rapidai.dev/deployment/overview/)
-- [API Reference](https://rapidai.dev/reference/app/)
+- [Getting Started Guide](hhttps://shaungehring.github.io/rapidai/tutorial/intro/)
+- [LLM Integration](hhttps://shaungehring.github.io/rapidai/advanced/llm/)
+- [Background Jobs](hhttps://shaungehring.github.io/rapidai/advanced/background/)
+- [Monitoring & Metrics](hhttps://shaungehring.github.io/rapidai/advanced/monitoring/)
+- [RAG System](hhttps://shaungehring.github.io/rapidai/advanced/rag/)
+- [UI Components](hhttps://shaungehring.github.io/rapidai/advanced/ui/)
+- [Testing Guide](hhttps://shaungehring.github.io/rapidai/advanced/testing/)
+- [Deployment](hhttps://shaungehring.github.io/rapidai/deployment/overview/)
+- [API Reference](hhttps://shaungehring.github.io/rapidai/reference/app/)
 
 ## 🛠️ CLI Tool
 
