@@ -450,6 +450,6 @@ if __name__ == "__main__":
 
 ## See Also
 
-- [CLI Reference](cli.md) - CLI configuration options
-- [Deployment Tutorial](../tutorial/deployment.md) - Production configuration
-- [RAG Reference](rag.md) - RAG configuration details
+- [CLI Reference](cli.html) - CLI configuration options
+- [Deployment Tutorial](../tutorial/deployment.html) - Production configuration
+- [RAG Reference](rag.html) - RAG configuration details

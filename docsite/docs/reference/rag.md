@@ -422,6 +422,6 @@ class BaseVectorDB(ABC):
 
 ## See Also
 
-- [RAG Guide](../advanced/rag.md)
-- [App Reference](app.md)
-- [LLM Reference](llm.md)
+- [RAG Guide](../advanced/rag.html)
+- [App Reference](app.html)
+- [LLM Reference](llm.html)

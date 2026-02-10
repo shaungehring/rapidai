@@ -246,15 +246,15 @@ pip install rapidai[anthropic]
 
 **Enhance Your Chatbot:**
 
-- [Add Streaming](streaming.md) - Real-time responses
-- [Add Memory](memory.md) - Remember conversations
-- [Add Caching](caching.md) - Save money
+- [Add Streaming](streaming.html) - Real-time responses
+- [Add Memory](memory.html) - Remember conversations
+- [Add Caching](caching.html) - Save money
 
 **Or Explore:**
 
-- [Multi-Provider Setup](multi-provider.md)
-- [Error Handling](error-handling.md)
-- [Testing](../advanced/testing.md)
+- [Multi-Provider Setup](multi-provider.html)
+- [Error Handling](error-handling.html)
+- [Testing](../advanced/testing.html)
 
 ---
 

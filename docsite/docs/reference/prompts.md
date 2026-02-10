@@ -448,6 +448,6 @@ if __name__ == "__main__":
 
 ## See Also
 
-- [Prompt Management Guide](../advanced/prompts.md) - Comprehensive usage guide
-- [RAG API Reference](rag.md) - Combine prompts with retrieval
-- [LLM API Reference](llm.md) - LLM integration
+- [Prompt Management Guide](../advanced/prompts.html) - Comprehensive usage guide
+- [RAG API Reference](rag.html) - Combine prompts with retrieval
+- [LLM API Reference](llm.html) - LLM integration

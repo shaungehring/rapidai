@@ -157,9 +157,9 @@ If you get "API key not found" errors:
 
 ## Next Steps
 
-- [First Steps](first-steps.md) - Create your first RapidAI app
-- [Quick Start](quickstart.md) - Learn the basics
-- [Tutorial](../tutorial/intro.md) - Step-by-step guide
+- [First Steps](first-steps.html) - Create your first RapidAI app
+- [Quick Start](quickstart.html) - Learn the basics
+- [Tutorial](../tutorial/intro.html) - Step-by-step guide
 
 ---
 

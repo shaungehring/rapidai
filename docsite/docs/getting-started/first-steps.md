@@ -210,10 +210,10 @@ curl -X POST http://localhost:8000/translate \
 
 **Continue Learning:**
 
-- [Quick Start Guide](quickstart.md) - Learn more features
-- [Tutorial](../tutorial/intro.md) - Step-by-step walkthrough
-- [Streaming](../tutorial/streaming.md) - Deep dive into streaming
-- [Memory](../tutorial/memory.md) - Add conversation memory
+- [Quick Start Guide](quickstart.html) - Learn more features
+- [Tutorial](../tutorial/intro.html) - Step-by-step walkthrough
+- [Streaming](../tutorial/streaming.html) - Deep dive into streaming
+- [Memory](../tutorial/memory.html) - Add conversation memory
 
 **Try This:**
 

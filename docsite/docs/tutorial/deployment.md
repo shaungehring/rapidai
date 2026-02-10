@@ -698,7 +698,7 @@ See Vertical Scaling section above.
 
 ## Next Steps
 
-- [CLI Reference](../reference/cli.md) - CLI deployment commands
-- [Configuration Reference](../reference/configuration.md) - All configuration options
-- [Monitoring](../advanced/monitoring.md) - Production monitoring setup
-- [Testing](../advanced/testing.md) - Test before deploying
+- [CLI Reference](../reference/cli.html) - CLI deployment commands
+- [Configuration Reference](../reference/configuration.html) - All configuration options
+- [Monitoring](../advanced/monitoring.html) - Production monitoring setup
+- [Testing](../advanced/testing.html) - Test before deploying

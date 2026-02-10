@@ -465,6 +465,6 @@ async def custom_metric():
 
 ## See Also
 
-- [Monitoring Guide](../advanced/monitoring.md) - Complete usage guide
-- [Background Jobs](background.md) - Monitor async tasks
-- [Testing](testing.md) - Test monitored endpoints
+- [Monitoring Guide](../advanced/monitoring.html) - Complete usage guide
+- [Background Jobs](background.html) - Monitor async tasks
+- [Testing](testing.html) - Test monitored endpoints

@@ -517,6 +517,6 @@ async def metrics():
 
 ## Next Steps
 
-- See [API Reference](../reference/monitoring.md) for complete API documentation
-- Learn about [Background Jobs](background.md) to monitor async tasks
-- Check [Testing](testing.md) for testing monitored endpoints
+- See [API Reference](../reference/monitoring.html) for complete API documentation
+- Learn about [Background Jobs](background.html) to monitor async tasks
+- Check [Testing](testing.html) for testing monitored endpoints

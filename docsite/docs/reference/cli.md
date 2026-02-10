@@ -524,6 +524,6 @@ rm -rf my-project  # if you want to overwrite
 
 ## See Also
 
-- [CLI Guide](../advanced/cli.md) - Complete usage guide with examples
-- [Configuration](configuration.md) - Environment variable configuration
-- [Deployment](../tutorial/deployment.md) - Deployment best practices
+- [CLI Guide](../advanced/cli.html) - Complete usage guide with examples
+- [Configuration](configuration.html) - Environment variable configuration
+- [Deployment](../tutorial/deployment.html) - Deployment best practices

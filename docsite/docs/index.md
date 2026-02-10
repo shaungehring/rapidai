@@ -131,7 +131,7 @@ curl -X POST http://localhost:8000/chat \
 
 ## 📄 License
 
-RapidAI is licensed under the MIT License. See [LICENSE](about/license.md) for details.
+RapidAI is licensed under the MIT License. See [LICENSE](about/license.html) for details.
 
 ---
 

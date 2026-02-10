@@ -304,6 +304,6 @@ if __name__ == "__main__":
 
 ## See Also
 
-- [RAG API Reference](../reference/rag.md)
-- [Configuration Guide](configuration.md)
-- [Testing RAG Applications](testing.md)
+- [RAG API Reference](../reference/rag.html)
+- [Configuration Guide](configuration.html)
+- [Testing RAG Applications](testing.html)

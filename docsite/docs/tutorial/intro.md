@@ -25,15 +25,15 @@ By the end of this tutorial, you'll have built:
 
 ### Part 1: Basics
 
-- [Simple Chatbot](simple-chatbot.md) - Your first AI endpoint
-- [Streaming Responses](streaming.md) - Real-time output
-- [Conversation Memory](memory.md) - Stateful conversations
+- [Simple Chatbot](simple-chatbot.html) - Your first AI endpoint
+- [Streaming Responses](streaming.html) - Real-time output
+- [Conversation Memory](memory.html) - Stateful conversations
 
 ### Part 2: Advanced Features
 
-- [Caching](caching.md) - Save money and time
-- [Multiple Providers](multi-provider.md) - Provider flexibility
-- [Error Handling](error-handling.md) - Production readiness
+- [Caching](caching.html) - Save money and time
+- [Multiple Providers](multi-provider.html) - Provider flexibility
+- [Error Handling](error-handling.html) - Production readiness
 
 ### Part 3: Production
 

@@ -615,6 +615,6 @@ pip install rapidai[dev]
 
 ## Next Steps
 
-- See [API Reference](../reference/cli.md) for complete CLI API documentation
-- Check [Configuration](configuration.md) for environment variables
-- Learn about [Deployment](../tutorial/deployment.md) best practices
+- See [API Reference](../reference/cli.html) for complete CLI API documentation
+- Check [Configuration](configuration.html) for environment variables
+- Learn about [Deployment](../tutorial/deployment.html) best practices

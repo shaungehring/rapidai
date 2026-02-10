@@ -558,6 +558,6 @@ if __name__ == "__main__":
 
 ## See Also
 
-- [UI Guide](../advanced/ui.md) - Complete UI usage guide
-- [Testing](testing.md) - Test UI components
-- [Deployment](../tutorial/deployment.md) - Deploy UI applications
+- [UI Guide](../advanced/ui.html) - Complete UI usage guide
+- [Testing](testing.html) - Test UI components
+- [Deployment](../tutorial/deployment.html) - Deploy UI applications

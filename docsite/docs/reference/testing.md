@@ -777,6 +777,6 @@ def test_protected_route(authenticated_client):
 
 ## See Also
 
-- [Testing Guide](../advanced/testing.md) - Complete testing guide
-- [Monitoring Reference](monitoring.md) - Test monitoring integration
-- [Background Jobs Reference](background.md) - Test background jobs
+- [Testing Guide](../advanced/testing.html) - Complete testing guide
+- [Monitoring Reference](monitoring.html) - Test monitoring integration
+- [Background Jobs Reference](background.html) - Test background jobs

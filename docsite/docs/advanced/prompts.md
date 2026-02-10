@@ -482,6 +482,6 @@ except PromptError as e:
 
 ## Next Steps
 
-- See [API Reference](../reference/prompts.md) for complete API documentation
+- See [API Reference](../reference/prompts.html) for complete API documentation
 - Check [examples/prompt_decorator.py](https://github.com/yourusername/rapidai/blob/main/examples/prompt_decorator.py) for more examples
-- Learn about [RAG](rag.md) for combining prompts with retrieved context
+- Learn about [RAG](rag.html) for combining prompts with retrieved context

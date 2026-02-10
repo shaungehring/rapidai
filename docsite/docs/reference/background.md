@@ -338,6 +338,6 @@ async def list_all_jobs(status: str = None):
 
 ## See Also
 
-- [Background Jobs Guide](../advanced/background.md) - Complete usage guide
-- [Monitoring](monitoring.md) - Track job performance
-- [Testing](testing.md) - Test background jobs
+- [Background Jobs Guide](../advanced/background.html) - Complete usage guide
+- [Monitoring](monitoring.html) - Track job performance
+- [Testing](testing.html) - Test background jobs

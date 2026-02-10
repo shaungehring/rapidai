@@ -608,6 +608,6 @@ interface = ChatInterface(
 
 ## Next Steps
 
-- [UI API Reference](../reference/ui.md) - Complete UI API
-- [Testing](testing.md) - Test your UI endpoints
-- [Deployment Tutorial](../tutorial/deployment.md) - Deploy your UI
+- [UI API Reference](../reference/ui.html) - Complete UI API
+- [Testing](testing.html) - Test your UI endpoints
+- [Deployment Tutorial](../tutorial/deployment.html) - Deploy your UI

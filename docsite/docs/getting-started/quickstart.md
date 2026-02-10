@@ -252,16 +252,16 @@ memory:
 
 **Continue Learning:**
 
-- [Tutorial](../tutorial/intro.md) - Comprehensive walkthrough
-- [Streaming Deep Dive](../tutorial/streaming.md)
-- [Memory Management](../tutorial/memory.md)
-- [Advanced Features](../advanced/configuration.md)
+- [Tutorial](../tutorial/intro.html) - Comprehensive walkthrough
+- [Streaming Deep Dive](../tutorial/streaming.html)
+- [Memory Management](../tutorial/memory.html)
+- [Advanced Features](../advanced/configuration.html)
 
 **Deploy:**
 
-- [Docker Deployment](../deployment/docker.md)
-- [Cloud Platforms](../deployment/cloud.md)
-- [Production Best Practices](../deployment/best-practices.md)
+- [Docker Deployment](../deployment/docker.html)
+- [Cloud Platforms](../deployment/cloud.html)
+- [Production Best Practices](../deployment/best-practices.html)
 
 ---
 

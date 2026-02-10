@@ -448,6 +448,6 @@ if result.status == "running":
 
 ## Next Steps
 
-- See [API Reference](../reference/background.md) for complete API documentation
-- Learn about [Monitoring](monitoring.md) to track job performance
-- Check [Testing](testing.md) for testing background jobs
+- See [API Reference](../reference/background.html) for complete API documentation
+- Learn about [Monitoring](monitoring.html) to track job performance
+- Check [Testing](testing.html) for testing background jobs

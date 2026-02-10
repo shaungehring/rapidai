@@ -537,6 +537,6 @@ except Exception as e:
 
 ## Next Steps
 
-- [Performance Guide](performance.md) - Optimize with caching
-- [Monitoring](monitoring.md) - Track cache performance
-- [Testing](testing.md) - Test cached endpoints
+- [Performance Guide](performance.html) - Optimize with caching
+- [Monitoring](monitoring.html) - Track cache performance
+- [Testing](testing.html) - Test cached endpoints

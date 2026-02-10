@@ -749,6 +749,6 @@ async def test_async_function():
 
 ## Next Steps
 
-- [Testing API Reference](../reference/testing.md) - Complete testing API
-- [Monitoring](monitoring.md) - Test monitoring integration
-- [Deployment Tutorial](../tutorial/deployment.md) - Test before deploying
+- [Testing API Reference](../reference/testing.html) - Complete testing API
+- [Monitoring](monitoring.html) - Test monitoring integration
+- [Deployment Tutorial](../tutorial/deployment.html) - Test before deploying
