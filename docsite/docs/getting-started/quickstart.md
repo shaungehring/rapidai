@@ -266,5 +266,5 @@ memory:
 ---
 
 <div style="text-align: center; padding: 2rem;">
-  <a href="../tutorial/intro/" class="md-button md-button--primary">Start Tutorial →</a>
+  <a href="../tutorial/intro.html" class="md-button md-button--primary">Start Tutorial →</a>
 </div>

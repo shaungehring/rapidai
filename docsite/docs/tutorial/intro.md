@@ -93,7 +93,7 @@ Stuck? Here's how to get help:
 Let's build your first AI application!
 
 <div style="text-align: center; padding: 2rem;">
-  <a href="simple-chatbot/" class="md-button md-button--primary" style="font-size: 1.2rem;">Start with Simple Chatbot →</a>
+  <a href="simple-chatbot.html" class="md-button md-button--primary" style="font-size: 1.2rem;">Start with Simple Chatbot →</a>
 </div>
 
 ---

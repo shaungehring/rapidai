@@ -259,5 +259,5 @@ pip install rapidai[anthropic]
 ---
 
 <div style="text-align: center; padding: 2rem;">
-  <a href="streaming/" class="md-button md-button--primary">Next: Streaming Responses →</a>
+  <a href="streaming.html" class="md-button md-button--primary">Next: Streaming Responses →</a>
 </div>

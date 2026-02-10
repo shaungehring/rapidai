@@ -225,5 +225,5 @@ curl -X POST http://localhost:8000/translate \
 ---
 
 <div style="text-align: center; padding: 2rem;">
-  <a href="quickstart/" class="md-button md-button--primary">Continue to Quick Start →</a>
+  <a href="quickstart.html" class="md-button md-button--primary">Continue to Quick Start →</a>
 </div>
